@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiverseDestination/DataManager.swift"
+            timestampString = "475156542.063406"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "getDataFromWebOfKind(_:withRequiredInfo:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiverseDestination/DataManager.swift"
+            timestampString = "475156542.063406"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getDataFromWebOfKind(_:withRequiredInfo:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiverseDestination/DataManager.swift"
+            timestampString = "475156542.063406"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "getLocationOfNearest(_:fromUserLocation:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiverseDestination/DataManager.swift"
+            timestampString = "475156542.063406"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "getLocationOfNearest(_:fromUserLocation:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiverseDestination/ResultsViewController.swift"
+            timestampString = "475156542.063406"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "ResponseForThe(_:withLocationInfo:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiverseDestination/ResultsViewController.swift"
+            timestampString = "475156542.063406"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "ResponseForThe(_:withLocationInfo:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiverseDestination.ResultsViewController.ResponseForThe (DiverseDestination.ResultsViewController)(Swift.String, withLocationInfo : __ObjC.NSDictionary) -&gt; ()"
+                  moduleName = "DiverseDestination"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sucharuhasija/Desktop/OfficeWork/MYPRACTICE%20/DiverseDestination/DiverseDestination/ResultsViewController.swift"
+                  timestampString = "475082591.776147"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "protocol witness for DiverseDestination.ResponseDataManager.ResponseForThe &lt;A where A: DiverseDestination.ResponseDataManager&gt; (A)(Swift.String, withLocationInfo : __ObjC.NSDictionary) -&gt; () in conformance DiverseDestination.ResultsViewController : DiverseDestination.ResponseDataManager in DiverseDestination"
+                  moduleName = "DiverseDestination"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sucharuhasija/Desktop/OfficeWork/MYPRACTICE%20/DiverseDestination/DiverseDestination/ResultsViewController.swift"
+                  timestampString = "475082591.776435"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiverseDestination/ResultsViewController.swift"
+            timestampString = "475150724.603034"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiverseDestination/ResultsViewController.swift"
+            timestampString = "475150724.603034"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/PXGoogleDirections/PXGoogleDirections/PXGoogleDirectionsRoute.swift"
+            timestampString = "475086100.142417"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "drawDestinationMarkerOnMap(_:title:color:opacity:flat:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/PXGoogleDirections/PXGoogleDirections/PXGoogleDirectionsRoute.swift"
+            timestampString = "475086100.142417"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "drawMarkerWithCoordinates(_:onMap:title:color:opacity:flat:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiverseDestination/ResultsViewController.swift"
+            timestampString = "475156542.063406"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "updateRoute()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiverseDestination/ResultsViewController.swift"
+            timestampString = "475156542.063406"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "updateRoute()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/PXGoogleDirections/PXGoogleDirections/PXGoogleDirectionsRoute.swift"
+            timestampString = "475086100.142417"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "drawDestinationMarkerOnMap(_:title:color:opacity:flat:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PXGoogleDirections.PXGoogleDirectionsRoute.drawDestinationMarkerOnMap (PXGoogleDirections.PXGoogleDirectionsRoute)(__ObjC.GMSMapView, title : Swift.String, color : __ObjC.UIColor, opacity : Swift.Float, flat : Swift.Bool) -&gt; Swift.Optional&lt;__ObjC.GMSMarker&gt;"
+                  moduleName = "PXGoogleDirections"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sucharuhasija/Desktop/OfficeWork/MYPRACTICE%20/DiverseDestination/Pods/PXGoogleDirections/PXGoogleDirections/PXGoogleDirectionsRoute.swift"
+                  timestampString = "475084986.132322"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PXGoogleDirections.PXGoogleDirectionsRoute.(drawDestinationMarkerOnMap (PXGoogleDirections.PXGoogleDirectionsRoute) -&gt; (__ObjC.GMSMapView, title : Swift.String, color : __ObjC.UIColor, opacity : Swift.Float, flat : Swift.Bool) -&gt; Swift.Optional&lt;__ObjC.GMSMarker&gt;).(default argument 1)"
+                  moduleName = "PXGoogleDirections"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sucharuhasija/Desktop/OfficeWork/MYPRACTICE%20/DiverseDestination/Pods/PXGoogleDirections/PXGoogleDirections/PXGoogleDirectionsRoute.swift"
+                  timestampString = "475084986.132578"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PXGoogleDirections.PXGoogleDirectionsRoute.(drawDestinationMarkerOnMap (PXGoogleDirections.PXGoogleDirectionsRoute) -&gt; (__ObjC.GMSMapView, title : Swift.String, color : __ObjC.UIColor, opacity : Swift.Float, flat : Swift.Bool) -&gt; Swift.Optional&lt;__ObjC.GMSMarker&gt;).(default argument 2)"
+                  moduleName = "PXGoogleDirections"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sucharuhasija/Desktop/OfficeWork/MYPRACTICE%20/DiverseDestination/Pods/PXGoogleDirections/PXGoogleDirections/PXGoogleDirectionsRoute.swift"
+                  timestampString = "475084986.132756"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PXGoogleDirections.PXGoogleDirectionsRoute.(drawDestinationMarkerOnMap (PXGoogleDirections.PXGoogleDirectionsRoute) -&gt; (__ObjC.GMSMapView, title : Swift.String, color : __ObjC.UIColor, opacity : Swift.Float, flat : Swift.Bool) -&gt; Swift.Optional&lt;__ObjC.GMSMarker&gt;).(default argument 3)"
+                  moduleName = "PXGoogleDirections"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sucharuhasija/Desktop/OfficeWork/MYPRACTICE%20/DiverseDestination/Pods/PXGoogleDirections/PXGoogleDirections/PXGoogleDirectionsRoute.swift"
+                  timestampString = "475084986.132956"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PXGoogleDirections.PXGoogleDirectionsRoute.(drawDestinationMarkerOnMap (PXGoogleDirections.PXGoogleDirectionsRoute) -&gt; (__ObjC.GMSMapView, title : Swift.String, color : __ObjC.UIColor, opacity : Swift.Float, flat : Swift.Bool) -&gt; Swift.Optional&lt;__ObjC.GMSMarker&gt;).(default argument 4)"
+                  moduleName = "PXGoogleDirections"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sucharuhasija/Desktop/OfficeWork/MYPRACTICE%20/DiverseDestination/Pods/PXGoogleDirections/PXGoogleDirections/PXGoogleDirectionsRoute.swift"
+                  timestampString = "475084986.133118"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/PXGoogleDirections/PXGoogleDirections/PXGoogleDirectionsRoute.swift"
+            timestampString = "475086100.142417"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "drawDestinationMarkerOnMap(_:title:color:opacity:flat:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/PXGoogleDirections/PXGoogleDirections/PXGoogleDirectionsRoute.swift"
+            timestampString = "475085888.916724"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "drawOriginMarkerOnMap(_:title:color:opacity:flat:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiverseDestination/ResultsViewController.swift"
+            timestampString = "475156542.063406"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
+            landmarkName = "PlaceTheWayPortOnTheMap()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

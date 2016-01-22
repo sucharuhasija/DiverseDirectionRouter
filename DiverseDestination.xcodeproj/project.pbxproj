@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9019DE93AADF00EC0EF8358 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF43A2982A038EA82DE28BA0 /* Pods.framework */; };
+		E205CD8E1C4FED77009FBE4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E205CD8D1C4FED77009FBE4F /* AppDelegate.swift */; };
+		E205CD931C4FED77009FBE4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E205CD911C4FED77009FBE4F /* Main.storyboard */; };
+		E205CD961C4FED77009FBE4F /* DiverseDestination.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E205CD941C4FED77009FBE4F /* DiverseDestination.xcdatamodeld */; };
+		E205CD981C4FED77009FBE4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E205CD971C4FED77009FBE4F /* Assets.xcassets */; };
+		E205CD9B1C4FED77009FBE4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E205CD991C4FED77009FBE4F /* LaunchScreen.storyboard */; };
+		E205CDA31C4FEE7F009FBE4F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E205CDA21C4FEE7E009FBE4F /* Constants.swift */; };
+		E2C293621C50224E00236271 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C293611C50224E00236271 /* MobileCoreServices.framework */; };
+		E2C293641C50225600236271 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C293631C50225600236271 /* CoreLocation.framework */; };
+		E2C293661C5024FE00236271 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C293651C5024FE00236271 /* DataManager.swift */; };
+		E2CF0B0A1C50E02A00F1D857 /* GoogleMaps.framework in Resources */ = {isa = PBXBuildFile; fileRef = E2CF0B091C50E02A00F1D857 /* GoogleMaps.framework */; };
+		E2CF0B0C1C50E06600F1D857 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CF0B0B1C50E06600F1D857 /* Accelerate.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E2CF0B0E1C50E07400F1D857 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CF0B0D1C50E07400F1D857 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E2CF0B101C50E07D00F1D857 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CF0B0F1C50E07D00F1D857 /* CoreBluetooth.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E2CF0B121C50E08500F1D857 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CF0B111C50E08500F1D857 /* CoreData.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E2CF0B141C50E08E00F1D857 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CF0B131C50E08E00F1D857 /* CoreText.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E2CF0B161C50E09600F1D857 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CF0B151C50E09600F1D857 /* GLKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E2CF0B181C50E09D00F1D857 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CF0B171C50E09D00F1D857 /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E2CF0B1A1C50E0A300F1D857 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CF0B191C50E0A300F1D857 /* QuartzCore.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E2CF0B1C1C50E0AC00F1D857 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CF0B1B1C50E0AC00F1D857 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E2CF0B1E1C50E0B500F1D857 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CF0B1D1C50E0B500F1D857 /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E2CF0B201C50E0BD00F1D857 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CF0B1F1C50E0BD00F1D857 /* OpenGLES.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E2CF0B221C50E21D00F1D857 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CF0B211C50E21D00F1D857 /* libc++.tbd */; };
+		E2CF0B241C50E2C300F1D857 /* dylib1.o in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CF0B231C50E2C300F1D857 /* dylib1.o */; };
+		E2CF0B261C50E2DE00F1D857 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CF0B251C50E2DE00F1D857 /* libz.tbd */; };
+		E2CF0B281C50E3ED00F1D857 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E2CF0B271C50E3ED00F1D857 /* GoogleMaps.bundle */; };
+		E2CF0B2C1C51284F00F1D857 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF0B2B1C51284F00F1D857 /* ResultsViewController.swift */; };
+		E2CF0B2E1C524C6B00F1D857 /* ResultsViewController+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF0B2D1C524C6B00F1D857 /* ResultsViewController+UITableView.swift */; };
+		E2CF0B301C524D2B00F1D857 /* ResultsViewController+PXIGoogleDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF0B2F1C524D2B00F1D857 /* ResultsViewController+PXIGoogleDirections.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B17CA36B1C409A36CA0AABA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		68B0410E42B854D6F46A0378 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BF43A2982A038EA82DE28BA0 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E205CD8A1C4FED76009FBE4F /* DiverseDestination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiverseDestination.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E205CD8D1C4FED77009FBE4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E205CD921C4FED77009FBE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E205CD951C4FED77009FBE4F /* DiverseDestination.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DiverseDestination.xcdatamodel; sourceTree = "<group>"; };
+		E205CD971C4FED77009FBE4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E205CD9A1C4FED77009FBE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E205CD9C1C4FED77009FBE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E205CDA21C4FEE7E009FBE4F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E2C293611C50224E00236271 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E2C293631C50225600236271 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E2C293651C5024FE00236271 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		E2CF0B081C50A84800F1D857 /* Directions.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Directions.geojson; sourceTree = "<group>"; };
+		E2CF0B091C50E02A00F1D857 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Pods/PXGoogleDirections/Dependencies/GoogleMaps.framework; sourceTree = "<group>"; };
+		E2CF0B0B1C50E06600F1D857 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		E2CF0B0D1C50E07400F1D857 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E2CF0B0F1C50E07D00F1D857 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		E2CF0B111C50E08500F1D857 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E2CF0B131C50E08E00F1D857 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		E2CF0B151C50E09600F1D857 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		E2CF0B171C50E09D00F1D857 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		E2CF0B191C50E0A300F1D857 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E2CF0B1B1C50E0AC00F1D857 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E2CF0B1D1C50E0B500F1D857 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E2CF0B1F1C50E0BD00F1D857 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E2CF0B211C50E21D00F1D857 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E2CF0B231C50E2C300F1D857 /* dylib1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = dylib1.o; path = usr/lib/dylib1.o; sourceTree = SDKROOT; };
+		E2CF0B251C50E2DE00F1D857 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E2CF0B271C50E3ED00F1D857 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Pods/PXGoogleDirections/Dependencies/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		E2CF0B2B1C51284F00F1D857 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		E2CF0B2D1C524C6B00F1D857 /* ResultsViewController+UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ResultsViewController+UITableView.swift"; sourceTree = "<group>"; };
+		E2CF0B2F1C524D2B00F1D857 /* ResultsViewController+PXIGoogleDirections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ResultsViewController+PXIGoogleDirections.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E205CD871C4FED76009FBE4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CF0B261C50E2DE00F1D857 /* libz.tbd in Frameworks */,
+				E2CF0B241C50E2C300F1D857 /* dylib1.o in Frameworks */,
+				E2CF0B121C50E08500F1D857 /* CoreData.framework in Frameworks */,
+				E2CF0B221C50E21D00F1D857 /* libc++.tbd in Frameworks */,
+				E2CF0B201C50E0BD00F1D857 /* OpenGLES.framework in Frameworks */,
+				E2CF0B1E1C50E0B500F1D857 /* CoreGraphics.framework in Frameworks */,
+				E2CF0B1C1C50E0AC00F1D857 /* SystemConfiguration.framework in Frameworks */,
+				E2CF0B1A1C50E0A300F1D857 /* QuartzCore.framework in Frameworks */,
+				E2CF0B181C50E09D00F1D857 /* ImageIO.framework in Frameworks */,
+				E2CF0B161C50E09600F1D857 /* GLKit.framework in Frameworks */,
+				E2CF0B141C50E08E00F1D857 /* CoreText.framework in Frameworks */,
+				E2CF0B101C50E07D00F1D857 /* CoreBluetooth.framework in Frameworks */,
+				E2CF0B0E1C50E07400F1D857 /* AVFoundation.framework in Frameworks */,
+				E2CF0B0C1C50E06600F1D857 /* Accelerate.framework in Frameworks */,
+				E2C293641C50225600236271 /* CoreLocation.framework in Frameworks */,
+				E2C293621C50224E00236271 /* MobileCoreServices.framework in Frameworks */,
+				C9019DE93AADF00EC0EF8358 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05773B041459E731FAB575C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68B0410E42B854D6F46A0378 /* Pods.debug.xcconfig */,
+				0B17CA36B1C409A36CA0AABA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E205CD811C4FED75009FBE4F = {
+			isa = PBXGroup;
+			children = (
+				E2CF0B271C50E3ED00F1D857 /* GoogleMaps.bundle */,
+				E2CF0B091C50E02A00F1D857 /* GoogleMaps.framework */,
+				E205CD8C1C4FED76009FBE4F /* DiverseDestination */,
+				E205CD8B1C4FED76009FBE4F /* Products */,
+				05773B041459E731FAB575C1 /* Pods */,
+				FFCD4784DA0580CC0A86C43C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E205CD8B1C4FED76009FBE4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E205CD8A1C4FED76009FBE4F /* DiverseDestination.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E205CD8C1C4FED76009FBE4F /* DiverseDestination */ = {
+			isa = PBXGroup;
+			children = (
+				E2C293601C500A4300236271 /* Main Page  */,
+				E2C2935F1C500A2400236271 /* central files */,
+				E205CD911C4FED77009FBE4F /* Main.storyboard */,
+				E2C2935E1C500A0400236271 /* Supporting files */,
+			);
+			path = DiverseDestination;
+			sourceTree = "<group>";
+		};
+		E2C2935E1C500A0400236271 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				E205CD8D1C4FED77009FBE4F /* AppDelegate.swift */,
+				E205CD971C4FED77009FBE4F /* Assets.xcassets */,
+				E205CD991C4FED77009FBE4F /* LaunchScreen.storyboard */,
+				E205CD9C1C4FED77009FBE4F /* Info.plist */,
+				E205CD941C4FED77009FBE4F /* DiverseDestination.xcdatamodeld */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		E2C2935F1C500A2400236271 /* central files */ = {
+			isa = PBXGroup;
+			children = (
+				E205CDA21C4FEE7E009FBE4F /* Constants.swift */,
+				E2C293651C5024FE00236271 /* DataManager.swift */,
+			);
+			name = "central files";
+			sourceTree = "<group>";
+		};
+		E2C293601C500A4300236271 /* Main Page  */ = {
+			isa = PBXGroup;
+			children = (
+				E2CF0B2B1C51284F00F1D857 /* ResultsViewController.swift */,
+				E2CF0B2D1C524C6B00F1D857 /* ResultsViewController+UITableView.swift */,
+				E2CF0B2F1C524D2B00F1D857 /* ResultsViewController+PXIGoogleDirections.swift */,
+				E2CF0B081C50A84800F1D857 /* Directions.geojson */,
+			);
+			name = "Main Page ";
+			sourceTree = "<group>";
+		};
+		FFCD4784DA0580CC0A86C43C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2CF0B251C50E2DE00F1D857 /* libz.tbd */,
+				E2CF0B231C50E2C300F1D857 /* dylib1.o */,
+				E2CF0B211C50E21D00F1D857 /* libc++.tbd */,
+				E2CF0B1F1C50E0BD00F1D857 /* OpenGLES.framework */,
+				E2CF0B1D1C50E0B500F1D857 /* CoreGraphics.framework */,
+				E2CF0B1B1C50E0AC00F1D857 /* SystemConfiguration.framework */,
+				E2CF0B191C50E0A300F1D857 /* QuartzCore.framework */,
+				E2CF0B171C50E09D00F1D857 /* ImageIO.framework */,
+				E2CF0B151C50E09600F1D857 /* GLKit.framework */,
+				E2CF0B131C50E08E00F1D857 /* CoreText.framework */,
+				E2CF0B111C50E08500F1D857 /* CoreData.framework */,
+				E2CF0B0F1C50E07D00F1D857 /* CoreBluetooth.framework */,
+				E2CF0B0D1C50E07400F1D857 /* AVFoundation.framework */,
+				E2CF0B0B1C50E06600F1D857 /* Accelerate.framework */,
+				E2C293631C50225600236271 /* CoreLocation.framework */,
+				E2C293611C50224E00236271 /* MobileCoreServices.framework */,
+				BF43A2982A038EA82DE28BA0 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E205CD891C4FED76009FBE4F /* DiverseDestination */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E205CD9F1C4FED77009FBE4F /* Build configuration list for PBXNativeTarget "DiverseDestination" */;
+			buildPhases = (
+				D82F26A53A3FBCF6E2D59ECF /* Check Pods Manifest.lock */,
+				E205CD861C4FED76009FBE4F /* Sources */,
+				E205CD871C4FED76009FBE4F /* Frameworks */,
+				E205CD881C4FED76009FBE4F /* Resources */,
+				FBFA7F2B6264EE9B7E7E3C84 /* Embed Pods Frameworks */,
+				0CB5EFEA985552CAB70EA68F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiverseDestination;
+			productName = DiverseDestination;
+			productReference = E205CD8A1C4FED76009FBE4F /* DiverseDestination.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E205CD821C4FED75009FBE4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SucharuHasija;
+				TargetAttributes = {
+					E205CD891C4FED76009FBE4F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = E205CD851C4FED75009FBE4F /* Build configuration list for PBXProject "DiverseDestination" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E205CD811C4FED75009FBE4F;
+			productRefGroup = E205CD8B1C4FED76009FBE4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E205CD891C4FED76009FBE4F /* DiverseDestination */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E205CD881C4FED76009FBE4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CF0B281C50E3ED00F1D857 /* GoogleMaps.bundle in Resources */,
+				E2CF0B0A1C50E02A00F1D857 /* GoogleMaps.framework in Resources */,
+				E205CD9B1C4FED77009FBE4F /* LaunchScreen.storyboard in Resources */,
+				E205CD981C4FED77009FBE4F /* Assets.xcassets in Resources */,
+				E205CD931C4FED77009FBE4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CB5EFEA985552CAB70EA68F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D82F26A53A3FBCF6E2D59ECF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBFA7F2B6264EE9B7E7E3C84 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E205CD861C4FED76009FBE4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CF0B301C524D2B00F1D857 /* ResultsViewController+PXIGoogleDirections.swift in Sources */,
+				E2C293661C5024FE00236271 /* DataManager.swift in Sources */,
+				E205CD961C4FED77009FBE4F /* DiverseDestination.xcdatamodeld in Sources */,
+				E2CF0B2E1C524C6B00F1D857 /* ResultsViewController+UITableView.swift in Sources */,
+				E205CD8E1C4FED77009FBE4F /* AppDelegate.swift in Sources */,
+				E205CDA31C4FEE7F009FBE4F /* Constants.swift in Sources */,
+				E2CF0B2C1C51284F00F1D857 /* ResultsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E205CD911C4FED77009FBE4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E205CD921C4FED77009FBE4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E205CD991C4FED77009FBE4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E205CD9A1C4FED77009FBE4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E205CD9D1C4FED77009FBE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E205CD9E1C4FED77009FBE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E205CDA01C4FED77009FBE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B0410E42B854D6F46A0378 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiverseDestination/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"PXGoogleDirections\"",
+					"-framework",
+					"\"GoogleMaps\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sucharuasija.DiverseDestination;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E205CDA11C4FED77009FBE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B17CA36B1C409A36CA0AABA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiverseDestination/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"PXGoogleDirections\"",
+					"-framework",
+					"\"GoogleMaps\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sucharuasija.DiverseDestination;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E205CD851C4FED75009FBE4F /* Build configuration list for PBXProject "DiverseDestination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E205CD9D1C4FED77009FBE4F /* Debug */,
+				E205CD9E1C4FED77009FBE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E205CD9F1C4FED77009FBE4F /* Build configuration list for PBXNativeTarget "DiverseDestination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E205CDA01C4FED77009FBE4F /* Debug */,
+				E205CDA11C4FED77009FBE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E205CD941C4FED77009FBE4F /* DiverseDestination.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E205CD951C4FED77009FBE4F /* DiverseDestination.xcdatamodel */,
+			);
+			currentVersion = E205CD951C4FED77009FBE4F /* DiverseDestination.xcdatamodel */;
+			path = DiverseDestination.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E205CD821C4FED75009FBE4F /* Project object */;
+}
